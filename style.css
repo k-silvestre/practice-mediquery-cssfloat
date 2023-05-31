@@ -1,0 +1,83 @@
+div {
+    display: inline-block;
+    width: 40%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.drew {
+    float: left;
+    border: solid black;
+}
+
+.hannah {
+    float: right;
+    background-color: aquamarine;
+    border: solid black;
+}
+
+img {
+    float: left;
+}
+
+.cfem {
+    margin: 50px;
+    padding: 0;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: firebrick;
+    border: 5px solid black;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .drew {
+        background-color: aliceblue;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .drew {
+      background-color: palegoldenrod;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .drew {
+      background-color: plum;
+    }
+  }
+
+  @media (min-width: 1601px) {
+    .drew {
+      background-color: rebeccapurple;
+    }
+  }
+
+  @media (min-width: 319px) and (max-width: 480px) {
+    .hannah {
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .hannah {
+      background-color: rebeccapurple;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .hannah {
+      background-color: powderblue;
+    }
+  }
+
+  @media (min-width: 1601px) {
+    .hannah {
+      background-color: palevioletred;
+    }
+  }
